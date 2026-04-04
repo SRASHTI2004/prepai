@@ -5,3 +5,14 @@ langchain-community
 fastapi
 uvicorn
 qdrant-client
+langchain-text-splitters
+fastembed
+rank-bm25
+ftfy
+streamlit
+requests
+pypdf
+cohere
+langfuse
+ragas
+datasets
