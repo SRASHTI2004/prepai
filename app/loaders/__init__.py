@@ -39,12 +39,34 @@ def load_md(file_path: str) -> list[dict]:
     }]
 
 
+def load_pdf(file_path: str) -> list[dict]:
+    # NEW — PDF support
+    from pypdf import PdfReader
+    reader = PdfReader(file_path)
+    docs = []
+    for i, page in enumerate(reader.pages):
+        text = page.extract_text() or ""
+        if text.strip():
+            docs.append({
+                "content": clean_text(text),
+                "metadata": {
+                    "source": file_path,
+                    "page": i + 1,
+                    "doc_type": "pdf",
+                    "filename": Path(file_path).name,
+                }
+            })
+    return docs
+
+
 def load_document(file_path: str) -> list[dict]:
     ext = Path(file_path).suffix.lower()
     if ext == ".txt":
         return load_txt(file_path)
     elif ext in (".md", ".markdown"):
         return load_md(file_path)
+    elif ext == ".pdf":
+        return load_pdf(file_path)
     else:
         print(f"  Skipping unsupported file type: {ext}")
         return []
