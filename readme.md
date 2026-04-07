@@ -212,6 +212,11 @@ eval) reflects how real AI systems are built.
 
 ---
 
+## 🌐 Live Demo
+- Frontend: https://prepai-h8ekghmvjxyfapdgbc9dth.streamlit.app/
+- Backend API: https://web-production-5af08.up.railway.app/docs
+
+
 ## 👩‍💻 Author
 
 **Srashti**
