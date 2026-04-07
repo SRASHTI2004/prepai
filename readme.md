@@ -217,6 +217,6 @@ eval) reflects how real AI systems are built.
 **Srashti**
 Final Year IT Student | Aspiring AI Engineer
 
-- GitHub: [your github]
-- LinkedIn: [your linkedin]
-- Email: [your email]
+- GitHub: https://github.com/SRASHTI2004
+- LinkedIn: https://www.linkedin.com/in/srashti-choudhary
+- Email: srashtichoudhary5@gmail.com
