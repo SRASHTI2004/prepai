@@ -16,3 +16,4 @@ cohere
 langfuse
 ragas
 datasets
+python-multipart
