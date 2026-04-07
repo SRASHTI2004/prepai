@@ -13,7 +13,7 @@ streamlit
 requests
 pypdf
 cohere
-langfuse
+langfuse==2.60.0
 ragas
 datasets
 python-multipart
