@@ -3,7 +3,6 @@
 
 ![TechPrep AI Demo](techprep%20ai/screenshots/02-output.png)
 
-👉 [**Try the live app →**](https://prepai-h8ekghmvjxyfapdgbc9dth.streamlit.app/)
 
 ---
 
@@ -125,8 +124,7 @@ uvicorn main:app --reload
 # Terminal 2
 streamlit run ui.py
 ```
-Open → http://localhost:8501
-
+Open browser → http://localhost:8501
 ---
 
 ## Built by
