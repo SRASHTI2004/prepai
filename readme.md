@@ -1,7 +1,7 @@
 # TechPrep AI 🚀
 > Your personal AI-powered technical interview preparation assistant
 
-![TechPrep AI Demo](techprep ai/screenshots/02-output.png)
+![TechPrep AI Demo](techprep%20ai/screenshots/02-output.png)
 
 👉 [**Try the live app →**](https://prepai-h8ekghmvjxyfapdgbc9dth.streamlit.app/)
 
@@ -18,7 +18,7 @@ cited answers from a curated knowledge base. No hallucinations.
 
 | Input Screen | Answer Output | Sources |
 |---|---|---|
-| ![Input](techprep ai/screenshots/01-input.png) | ![Output](techprep ai/screenshots/02-output.png) | ![Sources](techprep ai/screenshots/03-sources.png) |
+| ![Input](techprep%20ai/screenshots/01-input.png)) | ![Output](techprep%20ai/screenshots/02-output.png) | ![Sources](techprep%20ai/screenshots/03-sources.png) |
 
 ---
 
