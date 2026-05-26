@@ -124,7 +124,7 @@ uvicorn main:app --reload
 # Terminal 2
 streamlit run ui.py
 ```
-Open browser → `http://localhost:8501`
+Open browser → http://localhost:8501
 
 ## Built by
 
